@@ -1,0 +1,22 @@
+div{
+    background-color: black;
+    width: 193px;
+    height: 90px;
+    opacity: .8;
+    color: white;
+}
+button{
+    background-color: yellow;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+.a2:hover{
+    background-color: green;
+    color: white;
+}
+.a1:hover{
+    background-color: red;
+    color: white;
+}

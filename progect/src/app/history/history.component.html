@@ -1,0 +1,38 @@
+<h1>history</h1>
+    <form class="a2" *ngFor="let item of dummyarray">
+        <label>Name:</label><br>
+        {{item.username}}<br>
+        <label>AccoundNumber:</label><br>
+        {{item.accoundnumber}}<br>
+        <label>CurrentAmount:</label><br>
+        {{item.balance}}<br>
+
+    </form>
+    <div class="a1">
+        <div class="a3" *ngFor="let item of array">
+        <label>transaction:<br>{{item.type}},<br>{{item.amount}}<br>{{item.message}}<br><br></label><br>
+    </div >
+   
+<!-- <table>
+    <thead>
+        <tr>
+            <th>no</th>
+            <th>Name</th>
+            <th>Accounnd Number</th>
+            <th>transaction amount</th>
+            <th>current amount</th>
+            <th>date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of dummyarray[0];let i=index">
+            <td>{{i+1}}</td>
+            <td></td>
+            <td></td>
+            <td>{{data.transactionamnt}}</td>
+            <td>{{data.currentamnt</td>
+            <td>{{data.date}}</td>
+        </tr> -->
+    <!-- </tbody> -->
+<!-- </table> -->
+</div>

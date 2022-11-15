@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+<!-- <h1>Welcome {{a}}</h1> -->
+<!-- <button type="button" "class="btn btn-success">Delete Accound</button>
+<app-delete [item]="deleteac"></app-delete> -->
+<button type="button"(click)="deletebutton()"class="btn btn-success">Delete Account</button>
+<app-delete1 [item]="deleteaccount"(onCancel)="cancel()"(onDelete)="delete($event)"></app-delete1>
+<div class="a3">
+    <form [formGroup]="depositform" id="a4"[ngClass]="deleteaccount?'style1':''">
+        <h1>Deposit</h1><br>
+        <i class="aa bi bi-person-fill"></i>
+        <input type="text"placeholder="password"formControlName="uname13"><br><br>
+        <i class="aa bi bi-person-fill"></i>
+        <input type="text"placeholder="Accound number"formControlName="acno13"><br><br>
+        <i class="aa bi bi-currency-dollar"></i>
+        <input type="text"placeholder="Amount"formControlName="bal1"><br><br>
+        <button type="button" (click)="deposit()" class="btn btn-success">Submit</button><br>
+        
+
+    </form>
+</div>
+<div class="a3">
+    <form [formGroup]="withdrowform" id="a5"[ngClass]="deleteaccount?'style1':''">
+        <h1>Withdrow</h1><br>
+        <i class="aa bi bi-person-fill"></i>
+        <input type="text"placeholder="password"formControlName="uname13"><br><br>
+        <i class="aa bi bi-person-fill"></i>
+        <input type="text"placeholder="Accound number"formControlName="acno13"><br><br>
+        <i class="aa bi bi-currency-dollar"></i>
+        <input type="text"placeholder="Amount"formControlName="bal2"><br><br>
+        <button type="button" (click)="withdrow()" class="btn btn-success">Submit</button><br>
+        
+
+    </form>
+</div>
+<button [ngClass]="deleteaccount?'style1':''"class="butt"(click)="butt()">LogOut</button>

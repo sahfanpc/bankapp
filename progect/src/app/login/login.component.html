@@ -1,0 +1,14 @@
+
+<div class="a1">
+    <form ng-submit="login()"[formGroup]="loginform" class="a2">
+        <h1>Sign in</h1><br><br>
+        <i class="bi bi-person-fill"></i>
+        <input type="text"placeholder="Accound number"formControlName="acno2"><br><br>
+        
+        <i class="bi bi-key-fill"></i>
+        <input type="password"placeholder="password"formControlName="psd2"><br><br>
+        <button type="button" (click)="login()" class="btn btn-success">Login</button><br>
+        <p>already a user?<a routerLink="">Register</a></p>
+
+    </form>
+</div>

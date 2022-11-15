@@ -1,0 +1,30 @@
+.a1{
+ margin-left: 20px;
+ margin-right: 350px;
+ font-weight: bolder;
+ font-size: 25px;   
+}
+.a2{
+    margin-left: 65px;
+    border: none;
+    background-color: yellow;
+}
+/* .ac{
+    margin-left: 300px;
+    font-size: 30px;
+    border: none;
+    background-color: yellow;
+} */
+#ab{
+    background-color: yellow;
+}
+.aq{
+    
+    background-color: yellow;
+    border: none;
+}
+.aq1{
+    margin-left: 275px;
+    background-color: yellow;
+    border: none;font-size: 30px;
+}

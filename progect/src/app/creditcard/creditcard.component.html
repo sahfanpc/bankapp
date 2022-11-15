@@ -1,0 +1,29 @@
+<div class="a1">
+    <form [formGroup]="creditform" class="a2">
+        <h1>CreditCard</h1><br>
+        <input type="text"formControlName="name"placeholder="uname"><br><br>
+        <input type="text"formControlName="accountnumber"placeholder="accoundnumber"><br><br>
+        <input type="text"formControlName="adhar"placeholder="adhar"><br><br>
+        <input type="text"formControlName="balance"placeholder="balance"><br><br>
+        <input type="text"formControlName="password"placeholder="password"><br><br>
+        <button (click)="submit()"class="btn btn-success">submit</button>
+    </form>
+</div>
+<table *ngIf="testbutton">
+    <thead>
+        <tr>
+<th>#</th>
+<th>Name</th>
+<th>Account Number</th>
+<th>Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of array">
+            <td>1</td>
+            <td>{{item.name1}}</td>
+            <td>{{item.acno}}</td>
+            <td>{{item.blc}}</td>
+        </tr>
+    </tbody>
+</table>

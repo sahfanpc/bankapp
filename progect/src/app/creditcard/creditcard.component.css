@@ -1,0 +1,40 @@
+.a1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.a2{
+    width: 220px;
+    height: 375px;
+    margin-top: 80px;
+    background-color: black;
+    opacity:.9;
+    border-radius: 20px;
+}
+input{
+    border-radius: 6px;
+    border: none;
+}
+h1{
+    color: yellow;
+}
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+table{
+/* padding-right: 200px; */
+    margin-left: 400px;
+    background-color: white;
+    opacity: .8;
+}
+th{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+td{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
